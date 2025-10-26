@@ -101,7 +101,7 @@ Comprova connexió:
 ```bash
 ping -c 4 8.8.8.8 -c4 # NAT → Internet
 ```
-On xxx és l’adreça IP assignada a l’adaptador Host-only. (.101, .102, .103, ...)
+On xxx  (.101, .102, .103, ...) és l’adreça IP assignada a l’adaptador Host-only.
 
 ```bash
 ping -c 4 192.168.56.xxx  # Host-only → Host
