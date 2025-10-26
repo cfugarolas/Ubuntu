@@ -34,5 +34,4 @@ Hi trobaràs des de ajustos de xarxa fins a canvis de nom d’host, configuracio
 
 ---
 
-Anar al repositori principal:  
-[📖 Tornar al meu README](https://github.com/cfugarolas)
+[📖 Tornar al repositori principal](https://github.com/cfugarolas)
