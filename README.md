@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="img/logo_ubuntu.png" alt="Logo Ubuntu" width="150"/>
+</div>
+
 # 🐧 Ubuntu - Guies i configuracions bàsiques
 
 Aquest repositori recull **petits tutorials i configuracions essencials d’Ubuntu**, pensats per ajudar-te a configurar i entendre millor el sistema operatiu.  
