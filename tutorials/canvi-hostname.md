@@ -91,3 +91,10 @@ Hem completat la configuració del **hostname** i del **domini local**:
   ```bash
   hostname      # → server
   hostname -f   # → server.mydomain.test
+
+---
+
+## 🔙 Tornar al README
+
+Per veure tots els tutorials disponibles al repositori, fes clic aquí:  
+[📖 Tornar al README principal](../README.md)
