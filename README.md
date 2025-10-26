@@ -1,14 +1,13 @@
 <div align="center">
-  <img src="img/logo_ubuntu.png" alt="Logo Ubuntu" width="150"/>
+  <img src="img/logo_ubuntu.png" alt="Logo Ubuntu" width="100"/>
 
   # 🐧 Ubuntu - Guies i configuracions bàsiques
+
+  Aquest repositori recull **petits tutorials i configuracions essencials d’Ubuntu**, pensats per ajudar-te a configurar i entendre millor el sistema operatiu.  
+  Hi trobaràs des de ajustos de xarxa fins a canvis de nom d’host, configuracions d’usuari i altres trucs útils per al dia a dia.
 </div>
 
 <!-- ![Logo Ubuntu](img/logo_ubuntu.png) -->
-
-Aquest repositori recull **petits tutorials i configuracions essencials d’Ubuntu**, pensats per ajudar-te a configurar i entendre millor el sistema operatiu.  
-Hi trobaràs des de ajustos de xarxa fins a canvis de nom d’host, configuracions d’usuari i altres trucs útils per al dia a dia.
-
 ---
 
 ## 📘 Contingut
