@@ -72,7 +72,7 @@ Per instal·lar totes les actualitzacions disponibles, executa:
 sudo apt upgrade -y
 ```
 
-🔸 Explicació:
+💡 Explicació:
 
 apt upgrade actualitza els paquets existents a la seva última versió.
 
