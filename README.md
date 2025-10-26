@@ -29,7 +29,7 @@ Hi trobaràs des de ajustos de xarxa fins a canvis de nom d’host, configuracio
 1. **Clona el repositori**:
    ```bash
    git clone https://github.com/cfugarolas/Ubuntu.git
-   cd ubuntu-tutorials
+   cd Ubuntu
 # Ubuntu
 
 ---
