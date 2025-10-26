@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="/img/logo_ubuntu.png" alt="Logo Ubuntu" width="150"/>
+<img src="/img/logo_ubuntu.png" alt="Logo Ubuntu" width="100"/>
 
 # 🐧 Ubuntu Tutorials  
 ### Canvi del nom del host i configuració del domini
