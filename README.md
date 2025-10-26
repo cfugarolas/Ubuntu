@@ -28,8 +28,8 @@ Hi trobaràs des de ajustos de xarxa fins a canvis de nom d’host, configuracio
 
 1. **Clona el repositori**:
    ```bash
-   git clone https://github.com/cfugarolas/Ubuntu.git
-   cd Ubuntu
+   git clone https://github.com/cfugarolas/ubuntu.git
+   cd ubuntu
 # Ubuntu
 
 ---
