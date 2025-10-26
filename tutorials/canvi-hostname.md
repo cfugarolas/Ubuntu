@@ -81,7 +81,7 @@ hostname -f
 ```
 ---
 
-## ✅ 5. Tancament del tutorial
+## ✅ 5. Conclusió
 
 Hem completat la configuració del **hostname** i del **domini local**:
 
