@@ -15,7 +15,7 @@
 | Tema | Descripció |
 |------|-------------|
 | [Canvi de nom del host (hostname)](tutorials/canvi-hostname.md) | Com canviar el nom del teu equip d’Ubuntu de forma segura
-| [Configuració dels adaptadors de xarxa](tutorials/configuracio-xarxa.md) | Com configurar i gestionar adaptadors de xarxa (NAT, Bridge, etc.) |
+| [Configuració adaptadors en NAT i Host-only](tutorials/configuracio-xarxa.md) | Com configurar i gestionar adaptadors de xarxa en NAT i Host-only en VirtualBox|
 | [Actualitzacions del sistema](tutorials/actualitzacions-sistema.md) | Actualitzar, millorar i mantenir Ubuntu al dia |
 | ... | S’hi aniran afegint més guies amb el temps |
 
