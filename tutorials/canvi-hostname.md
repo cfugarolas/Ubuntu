@@ -96,5 +96,4 @@ Hem completat la configuració del **hostname** i del **domini local**:
 
 ## 🔙 Veure altres tutorials UBUNTU
 
-Per veure tots els tutorials disponibles al repositori, fes clic aquí:  
 [📖 Veure tots els tutorials d'Ubuntu](../README.md)
