@@ -34,7 +34,3 @@ Hi trobaràs des de ajustos de xarxa fins a canvis de nom d’host, configuracio
 
 ---
 
-## 🔙 Tornar al meu README
-
-Per veure tots els tutorials disponibles al meu repositori, fes clic aquí:  
-[📖 Tornar al meu README](https://github.com/cfugarolas/ubuntu/tutorials)
