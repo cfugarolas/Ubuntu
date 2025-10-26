@@ -60,7 +60,7 @@ Afegim la següent línia a l'arxiu /etc/hosts
 127.0.0.1   localhost
 127.0.1.1   server.mydomain.test server
 ```
-> 🔸 **Explicació:**
+> 💡 **Explicació:**
 > 
 > - `127.0.0.1` apunta al sistema local (*loopback*).
 > - `127.0.1.1` s’utilitza habitualment per al nom de la màquina.
