@@ -3,7 +3,7 @@
 <img src="/img/logo_ubuntu.png" alt="Logo Ubuntu" width="100"/>
 
 # 🐧 Ubuntu Tutorials  
-### Configuració de xarxes a VirtualBox
+### Configuració d'adaptadors de xarxes a VirtualBox en Ubuntu
 
 Petit tutorial per aprendre a configurar **adaptadors en NAT i Host-only** a una màquina Ubuntu dins de VirtualBox.
 
