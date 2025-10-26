@@ -94,6 +94,6 @@ Hem completat la configuració del **hostname** i del **domini local**:
 
 ---
 
-## 🔙 Veure altres tutorials UBUNTU
+## 🔙 Veure tots els tutorials d'UBUNTU
 
 [📖 Veure tots els tutorials d'Ubuntu](../README.md)
