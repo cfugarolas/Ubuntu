@@ -137,3 +137,7 @@ sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo ap
 ```
 
 ---
+
+## 🔙 Veure tots els tutorials d'UBUNTU
+
+[📖 Veure tots els tutorials d'Ubuntu](../README.md)
