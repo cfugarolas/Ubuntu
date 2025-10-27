@@ -1,11 +1,16 @@
-<div align="center"> <img src="/img/logo_ubuntu.png" alt="Logo Ubuntu" width="100"/>
-🐧 Ubuntu Tutorials
-Instal·lació i configuració bàsica d’OpenLDAP a Ubuntu
+<div align="center">
+
+<img src="/img/logo_ubuntu.png" alt="Logo Ubuntu" width="100"/>
+
+# 🐧 Ubuntu Tutorials  
+### Instal·lació i configuració bàsica d’OpenLDAP a Ubuntu
+### Configuració d'adaptadors de xarxes a VirtualBox en Ubuntu
 
 Petit tutorial per aprendre a instal·lar, configurar i verificar un servidor LDAP en Ubuntu.
 
-</div>
-📚 Instal·lació d’OpenLDAP en Ubuntu
+---
+
+## 📚 Instal·lació d’OpenLDAP en Ubuntu
 
 Aquest tutorial explica com instal·lar i configurar un servidor LDAP en Ubuntu.
 Veurem:
