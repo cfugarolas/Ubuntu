@@ -28,6 +28,6 @@ Veurem:
 
 ## 🔍 1. Actualitzar el sistema
 
-Sempre comencem actualitzant els repositoris i paquet, podeu mirar el tutorial d'actualització
-[📖 Veure tutorial d'actualització d'un sistema Ubuntu](../tutorials/actualitzacions-sistema.md)
+Sempre comencem actualitzant els repositoris i paquets, podeu mirar el tutorial d'actualització
+[📖 Actualitzar completament el sistema Ubuntu](../tutorials/actualitzacions-sistema.md)
 
