@@ -17,6 +17,7 @@
 | [Canvi de nom del host (hostname)](tutorials/canvi-hostname.md) | Com canviar el nom del teu equip d’Ubuntu de forma segura
 | [Configuració adaptadors en NAT i Host-only](tutorials/configuracio-xarxa.md) | Com configurar i gestionar adaptadors de xarxa en NAT i Host-only en VirtualBox|
 | [Actualitzacions del sistema](tutorials/actualitzacions-sistema.md) | Actualitzar, millorar i mantenir Ubuntu al dia |
+| [Instal·lació i configuració de LDAP](tutorials/install-ldap.md) | Instal·lar, configurar i verificar funcionament deLDAP |
 | ... | S’hi aniran afegint més guies amb el temps |
 
 ---
