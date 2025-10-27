@@ -31,3 +31,30 @@ Veurem:
 Sempre comencem actualitzant els repositoris i paquets, podeu mirar el tutorial d'actualització
 [📖 Actualitzar completament el sistema Ubuntu](../tutorials/actualitzacions-sistema.md)
 
+## 📦 2. Instal·lar OpenLDAP i eines
+
+Instal·lem el servidor i les utilitats administratives:
+
+```bash
+sudo apt install slapd ldap-utils -y
+```
+Durant la instal·lació et demanarà una contrasenya per l’admin LDAP.
+
+**🔐 Recorda-la! La necessitaràs per gestionar el directori.**
+
+## ⚙️ 3. Configuració posterior a la instal·lació
+
+Per reconfigurar els paràmetres inicials:
+
+```bash
+sudo dpkg-reconfigure slapd
+```
+| Pregunta             | Recomanació       |
+| -------------------- | ----------------- |
+| Ometre configuració? | **No**            |
+| Nom de domini (DNS)  | exemple.local     |
+| Nom d’organització   | exemple           |
+| Base de dades        | MDB (per defecte) |
+| Esborrar BD antiga?  | No                |
+
+
