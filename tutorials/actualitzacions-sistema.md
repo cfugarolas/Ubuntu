@@ -11,7 +11,7 @@ Petit tutorial per aprendre a **actualitzar i mantenir el teu sistema Ubuntu al 
 
 </div>
 
-# 🔄 Actualitzar totes les actualitzacions del sistema a Ubuntu
+# 🔄 Fer totes les actualitzacions del sistema a Ubuntu
 
 Aquest tutorial mostra com **comprovar, descarregar i instal·lar totes les actualitzacions** disponibles a Ubuntu utilitzant la línia d’ordres.
 
