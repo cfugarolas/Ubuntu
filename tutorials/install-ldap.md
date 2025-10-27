@@ -9,6 +9,8 @@ Petit tutorial per aprendre a instal·lar, configurar i verificar un servidor LD
 
 </div>
 
+---
+
 ## 📚 Instal·lació d’OpenLDAP en Ubuntu
 
 Aquest tutorial explica com instal·lar i configurar un servidor LDAP en Ubuntu.
@@ -26,5 +28,6 @@ Veurem:
 
 ## 🔍 1. Actualitzar el sistema
 
-Sempre comencem actualitzant els repositoris i paquets:
+Sempre comencem actualitzant els repositoris i paquet, podeu mirar el tutorial d'actualització
+[📖 Veure tutorial d'actualització d'un sistema Ubuntu](../actualitzacions-sistema.md)
 
