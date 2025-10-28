@@ -28,17 +28,19 @@ Veurem:
 
 ## 🔍 1. Actualitzar el sistema
 
-Sempre comencem actualitzant els repositoris i paquets, podeu mirar el tutorial d'actualització
+Sempre comencem actualitzant els repositoris i paquets, podeu mirar el tutorial d'actualització.
 [📖 Actualitzar completament el sistema Ubuntu](../tutorials/actualitzacions-sistema.md)
 
 ## 🌐 2. Configurar el nom i el domini configurat
+Configurarem el nom i l’extensió del domini que vulguem utilitzar al nostre LDAP. Podeu consultar el tutorial.
 
-Canviar el nom del host (hostname) del sistema i afegir-hi un domini personalitzat
+Canviar el nom del host (hostname) del sistema i afegir-hi un domini personalitzat.
 [📖Canvi de hostname i afegir un domini a Ubuntu](../tutorials/canvi-hostname.md)
 
 ## 🛜 3. Configurar els adaptadors
 
-Configurar dos adaptadors, un amb xarxa NAT i l'altre com anfitrió
+Configurar dos adaptadors, un amb xarxa NAT i l'altre com anfitrió. Podeu consultar el tutorial.
+
 [📖Configuració d'adaptadors de xarxes a VirtualBox en Ubuntu](../tutorials/configuracio-xarxa.md)
 
 ## 📦 4. Instal·lar OpenLDAP i eines
