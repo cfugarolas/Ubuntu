@@ -18,7 +18,8 @@
 | [Configuració adaptadors en NAT i Host-only](tutorials/configuracio-xarxa.md) | Com configurar i gestionar adaptadors de xarxa en NAT i Host-only en VirtualBox|
 | [Actualitzacions del sistema](tutorials/actualitzacions-sistema.md) | Actualitzar, millorar i mantenir Ubuntu al dia |
 | [Instal·lació i configuració de LDAP](tutorials/install-ldap.md) | Instal·lar, configurar i verificar funcionament deLDAP |
-| [Creació d’Unitats Organitzatives amb arxius .ldif](tutorials/arxius-ldif.md) | Crear i configurar i verificar funcionament d'arxiuss LDIF |
+| [Creació d’Unitats Organitzatives amb arxius ldif](tutorials/arxius-ldif.md) | Crear i configurar i verificar funcionament d'arxiuss LDIF |
+| [Instal·lació i configuració Lam Manager](tutorials/install-lam-ldap.md) | Instal·lació i configuració Lam Manager |
 | ... | S’hi aniran afegint més guies amb el temps |
 
 ---
