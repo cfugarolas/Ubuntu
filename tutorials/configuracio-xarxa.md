@@ -5,7 +5,7 @@
 # 🐧 Ubuntu Tutorials  
 ### Configuració d'adaptadors de xarxes a VirtualBox en Ubuntu
 
-Petit tutorial per aprendre a configurar **adaptadors en NAT i Host-only** a una màquina Ubuntu dins de VirtualBox.
+Tutorial per aprendre a configurar **adaptadors en NAT i Host-only** a una màquina Ubuntu dins de VirtualBox.
 
 ---
 
