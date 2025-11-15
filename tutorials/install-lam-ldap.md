@@ -42,7 +42,7 @@ http://<ip_servidor_ldap_lam>/lam
 ```
 ⚠️ Substitueix  **<ip_servidor_ldap_lam>** per l'adreça ip de **xarxa NAT**  o **anfitrió** des de el teu client o anfitrió.
 
-![Configuració inicial LAM](/ubuntu/tutorials/img/config-lam.jpg)
+![Configuració inicial LAM](/ubuntu/img/config-lam.jpg)
 
 
 
