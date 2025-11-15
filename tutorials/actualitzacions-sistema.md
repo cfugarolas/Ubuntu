@@ -5,7 +5,7 @@
 # 🐧 Ubuntu Tutorials  
 ### Actualitzar completament el sistema Ubuntu
 
-Petit tutorial per aprendre a **actualitzar i mantenir el teu sistema Ubuntu al dia**, aplicant totes les actualitzacions disponibles de paquets i del sistema operatiu.
+Tutorial per aprendre a **actualitzar i mantenir el teu sistema Ubuntu al dia**, aplicant totes les actualitzacions disponibles de paquets i del sistema operatiu.
 
 ---
 
