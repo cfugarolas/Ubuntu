@@ -58,12 +58,12 @@ sudo nano OUs.ldif
 Copia i enganxa el següent contingut al teu fitxer `.ldif`:
 
 ```bash
-dn: ou=users,dc=elmeudomini,dc=test
+dn: ou=users,dc=mydomain,dc=test
 ou: users
 objectClass: top
 objectClass: organizationalUnit
 
-dn: ou=groups,dc=elmeudomini,dc=test
+dn: ou=groups,dc=mydomain,dc=test
 ou: groups
 objectClass: top
 objectClass: organizationalUnit
@@ -81,7 +81,7 @@ objectClass: organizationalUnit
 Un cop guardat el fitxer, importa les noves OUs amb:
 
 ```bash
-ldapadd -D "cn=admin,elmeudomini,dc=test" -W -f OUs.ldif
+ldapadd -D "cn=admin,mydomain,dc=test" -W -f OUs.ldif
 ```
 
 ### 📌 Significat de la comanda
@@ -94,8 +94,8 @@ ldapadd -D "cn=admin,elmeudomini,dc=test" -W -f OUs.ldif
 ### ✔️ Sortida esperada
 
 ```text
-adding new entry "ou=users,dc=elmeudomini,dc=test"
-adding new entry "ou=groups,dc=elmeudomini,dc=test"
+adding new entry "ou=users,dc=mydomain,dc=test"
+adding new entry "ou=groups,dc=mydomain,dc=test"
 ```
 Això confirma que les OUs han estat creades amb èxit.
 
@@ -111,7 +111,7 @@ sudo slapcat
 O bé busca només les noves OUs:
 
 ```bash
-ldapsearch -x -b "dc=elmeudomini,dc=test" "(ou=*)"
+ldapsearch -x -b "dc=mydomain,dc=test" "(ou=*)"
 ```
 ---
 
