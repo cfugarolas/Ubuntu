@@ -11,7 +11,7 @@ Tutorial per aprendre a crear i importar objectes al directori LDAP utilitzant f
 
 ---
 
-# 📘 Introducció
+## 📘 Introducció
 
 En aquest tutorial aprendrem:
 
@@ -25,7 +25,7 @@ Aquest és un procés fonamental per preparar l’estructura bàsica d’un dire
 
 ---
 
-# 📂 Què és un fitxer `.ldif`?
+## 📂 Què és un fitxer `.ldif`?
 
 Un fitxer `.ldif` (*LDAP Data Interchange Format*) és un arxiu de text que conté definicions d’objectes LDAP.
 
@@ -43,7 +43,7 @@ Cada entrada `.ldif` representa un objecte i sempre inclou:
 
 ---
 
-# 🗂️ Creació de les Unitats Organitzatives *users* i *groups*
+## 🗂️ Creació de les Unitats Organitzatives *users* i *groups*
 
 ### 1️⃣ Crear el fitxer `.ldif`
 
