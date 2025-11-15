@@ -45,7 +45,7 @@ Cada entrada `.ldif` representa un objecte i sempre inclou:
 
 # 🗂️ Creació de les Unitats Organitzatives *users* i *groups*
 
-## 1️⃣ Crear el fitxer `.ldif`
+### 1️⃣ Crear el fitxer `.ldif`
 
 Obrirem un nou fitxer anomenat **OUs.ldif**:
 
@@ -53,7 +53,7 @@ Obrirem un nou fitxer anomenat **OUs.ldif**:
 sudo nano OUs.ldif
 ```
 
-## 2️⃣ Afegir el contingut LDIF
+### 2️⃣ Afegir el contingut LDIF
 
 Copia i enganxa el següent contingut al teu fitxer `.ldif`:
 
@@ -68,7 +68,7 @@ ou: groups
 objectClass: top
 objectClass: organizationalUnit
 ```
-## 🔍 Explicació del contingut
+### 🔍 Explicació del contingut
 
 ### 📁 OU: *users* i  OU: *groups*
 - **dn:** identifica l’objecte dins el directori  
@@ -76,7 +76,7 @@ objectClass: organizationalUnit
 - **objectClass:** indica que és una OU
 ---
 
-## 📥 3️⃣ Importar el fitxer `.ldif` al servidor LDAP
+### 📥 3️⃣ Importar el fitxer `.ldif` al servidor LDAP
 
 Un cop guardat el fitxer, importa les noves OUs amb:
 
@@ -84,7 +84,7 @@ Un cop guardat el fitxer, importa les noves OUs amb:
 ldapadd -D "cn=admin,elmeudomini,dc=test" -W -f OUs.ldif
 ```
 
-## 📌 Significat de la comanda
+### 📌 Significat de la comanda
 
 - **ldapadd** → afegeix noves entrades LDAP  
 - **-D** → DN de l’administrador  
@@ -101,7 +101,7 @@ Això confirma que les OUs han estat creades amb èxit.
 
 ---
 
-## 🔎 4️⃣ Verificar que les OUs s’han creat correctament
+### 🔎 4️⃣ Verificar que les OUs s’han creat correctament
 
 Consulta tot el directori amb:
 
@@ -115,7 +115,7 @@ ldapsearch -x -b "dc=elmeudomini,dc=test" "(ou=*)"
 ```
 ---
 
-## 🎉 Conclusió
+### 🎉 Conclusió
 
 En aquest tutorial hem après:
 
