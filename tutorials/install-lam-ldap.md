@@ -43,7 +43,7 @@ http://<ip_servidor_ldap_lam>/lam
 **Accedim a la configuració del LAM**
 
 ![Configuració inicial LAM](/img/config_lam.png)
-
+ 
 ⚠️ Substitueix  **<ip_servidor_ldap_lam>** per l'adreça ip de **xarxa NAT**  o **anfitrió** des de el teu client o anfitrió.
 
 ---
@@ -63,7 +63,7 @@ lam
 
 ---
 
-**Anem a les opcions generals a l'apartat Server Settings**
+**Anem a l'apartat Server Settings**
 
 ![Server settings](/img/lam_settings.png)
 
@@ -76,7 +76,7 @@ Per exemple: cn=admin,dc=mydomain,dc=test
 
 **Ara anem a l'apartat Tools Settings i configurem el domini**
 
-![Tools settings](/img/lam_tools.png)
+![Tools set i gutings](/img/lam_tools.png)
 
 ```bash
 Per exemple: dc=mydomain,dc=test
@@ -84,15 +84,29 @@ Per exemple: dc=mydomain,dc=test
 ⚠️ Substituirem **dc=mydomain** i **dc=test**, per les dades del domini configurades en el ldap.
 
 ---
-**Anem a les opcions generals a l'apartat Account Types**
+**Dins Account Types anem a l'apartat Active account types**
 
-![Account Types](/img/lam_settings.png)
+![Account Types](/img/lam_account_types.png)
+
+![Account](/img/lam_act_account.png)
+
+⚠️ Substituirem **uo=users** i **uo=groups**, amb el nom que vulguem per guardar els usuaris i grups.
 
 ---
 
 **Guardem els canvis**
 
-![Tools settings](/img/save.png)
+![Guardar les configuracions](/img/save.png)
+
+⚠️ Anem al final de la pestanya **General settings** o **Account Types** i guardem la configuració.
+
+---
+
+**Accedim al LDAP**
+
+<img src="/img/ldap_login.png" alt="Logo Ubuntu" width="350"/>
+
+⚠️ La contrasenya serà la configurada al fer la instal·lació del nostre LDAP server.
 
 ---
 
