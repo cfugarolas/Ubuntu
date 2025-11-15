@@ -35,28 +35,14 @@ Instal·lem LAM des dels repositoris oficials d’Ubuntu:
 sudo apt install ldap-account-manager -y
 ```
 
-##🔧 4️⃣ Configurar LAM per connectar al teu LDAP (Consola)
-
-El fitxer principal de configuració és:
+##🔧 3️⃣ Configurar LAM per connectar al teu LDAP
 
 ```bash
-sudo nano /etc/lam/lam.conf
+http://<ip_servidor_ldap_lam>/lam
 ```
+⚠️ Substitueix  **<ip_servidor_ldap_lam>** per l'adreça ip de **xarxa NAT**  o **anfitrió** des de el teu client o anfitrió.
 
-Exemple de configuració bàsica si el teu servidor LDAP és ldap://localhost i l’administrador té el DN cn=admin,dc=mydomain,dc=test:
+![Configuració inicial LAM](/ubuntu/tutorials/img/config-lam.jpg)
 
-```bash
-$servers = array(
-    array(
-        'name' => 'Servidor LDAP Local',
-        'host' => 'ldap://localhost',
-        'port' => 389,
-        'base_dn' => 'dc=mydomain,dc=test',
-        'bind_dn' => 'cn=admin,dc=mydomain,dc=test',
-        'bind_pw' => 'p@ssw0rd'
-    )
-);
-```
 
-⚠️ Substitueix p@ssword amb la contrasenya real del teu administrador LDAP i el teu domini de proves.
-Per seguretat, evita deixar la contrasenya en clar si el servidor és públic.
+
