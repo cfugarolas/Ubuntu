@@ -40,9 +40,12 @@ sudo apt install ldap-account-manager -y
 ```bash
 http://<ip_servidor_ldap_lam>/lam
 ```
+Accedim a la configuració del LAM
+
+![Configuració inicial LAM](/img/config_lam.png)
+
 ⚠️ Substitueix  **<ip_servidor_ldap_lam>** per l'adreça ip de **xarxa NAT**  o **anfitrió** des de el teu client o anfitrió.
 
-![Configuració inicial LAM](/ubuntu/img/config_lam.png)
 
 
 
