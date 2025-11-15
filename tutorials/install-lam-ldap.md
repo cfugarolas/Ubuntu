@@ -47,7 +47,11 @@ Accedim a la configuració del LAM
 ⚠️ Substitueix  **<ip_servidor_ldap_lam>** per l'adreça ip de **xarxa NAT**  o **anfitrió** des de el teu client o anfitrió.
 
 Editem el perfil del servidor
+![Configuració del perfil](/img/lam_profile.png)
 
-![Configuració inicial LAM](/img/lam_profile.png)
+Introduim la contrasenya per defecte
+![Introduir usuari i contrasenya](/img/lam_login.png)
+
+⚠️ La contrasenya per defecte de l'usuari lam és: **lam**
 
 
