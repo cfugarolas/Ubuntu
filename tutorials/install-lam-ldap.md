@@ -68,7 +68,8 @@ Per exemple: cn=admin,dc=mydomain,dc=test
 ```
 ⚠️ Substituirem **dc=mydomain** i **dc=test**, per les dades del domini configurades en el ldap.
 
-**Ara anem a l'apartat **Tools Settings** i configurem el domini
+**Ara anem a l'apartat Tools Settings i configurem el domini**
+
 ![Tools settings](/img/lam_tools.png)
 
 ```bash
