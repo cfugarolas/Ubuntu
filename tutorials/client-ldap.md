@@ -5,7 +5,7 @@
 # 🐧 Ubuntu Tutorials
 ### Instal·lació i configuració client LDAP a Zorin
 
-Petit tutorial per aprendre a instal·lar, configurar i verificar un client en LDAP en Ubuntu.
+Tutorial per aprendre a instal·lar, configurar i verificar un client en LDAP en Ubuntu.
 
 </div>
 
