@@ -40,18 +40,24 @@ sudo apt install ldap-account-manager -y
 ```bash
 http://<ip_servidor_ldap_lam>/lam
 ```
-Accedim a la configuració del LAM
+**Accedim a la configuració del LAM**
 
 ![Configuració inicial LAM](/img/config_lam.png)
 
 ⚠️ Substitueix  **<ip_servidor_ldap_lam>** per l'adreça ip de **xarxa NAT**  o **anfitrió** des de el teu client o anfitrió.
 
-Editem el perfil del servidor
+**Editem el perfil del servidor**
+
 ![Configuració del perfil](/img/lam_profile.png)
 
-Introduim la contrasenya per defecte
+**Introduim la contrasenya per defecte**
+
 ![Introduir usuari i contrasenya](/img/lam_login.png)
 
 ⚠️ La contrasenya per defecte de l'usuari lam és: **lam**
+
+**Anem a les opcions generals a l'apartat Server Settings**
+
+![Server settings](/img/lam_settings.png)
 
 
