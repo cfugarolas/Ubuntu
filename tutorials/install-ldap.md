@@ -5,7 +5,7 @@
 # 🐧 Ubuntu Tutorials
 ### Instal·lació i configuració bàsica d’OpenLDAP a Ubuntu
 
-Petit tutorial per aprendre a instal·lar, configurar i verificar un servidor LDAP en Ubuntu.
+Tutorial per aprendre a instal·lar, configurar i verificar un servidor LDAP en Ubuntu.
 
 </div>
 
