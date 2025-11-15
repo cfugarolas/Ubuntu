@@ -46,6 +46,8 @@ http://<ip_servidor_ldap_lam>/lam
 
 ⚠️ Substitueix  **<ip_servidor_ldap_lam>** per l'adreça ip de **xarxa NAT**  o **anfitrió** des de el teu client o anfitrió.
 
+---
+
 **Editem el perfil del servidor**
 
 ![Configuració del perfil](/img/lam_profile.png)
@@ -57,7 +59,9 @@ http://<ip_servidor_ldap_lam>/lam
 ```bash
 lam
 ```
-⚠️ La contrasenya per defecte de l'usuari lam és: **lam**
+⚠️ La contrasenya per defecte del perfil lam és: **lam**
+
+---
 
 **Anem a les opcions generals a l'apartat Server Settings**
 
@@ -68,6 +72,8 @@ Per exemple: cn=admin,dc=mydomain,dc=test
 ```
 ⚠️ Substituirem **dc=mydomain** i **dc=test**, per les dades del domini configurades en el ldap.
 
+---
+
 **Ara anem a l'apartat Tools Settings i configurem el domini**
 
 ![Tools settings](/img/lam_tools.png)
@@ -76,3 +82,9 @@ Per exemple: cn=admin,dc=mydomain,dc=test
 Per exemple: dc=mydomain,dc=test
 ```
 ⚠️ Substituirem **dc=mydomain** i **dc=test**, per les dades del domini configurades en el ldap.
+
+---
+
+**Guardem els canvis**
+
+![Tools settings](/img/lam_tools.png)
