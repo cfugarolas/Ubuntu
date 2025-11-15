@@ -27,7 +27,7 @@ Aquest tutorial explica com instal·lar i configurar **LDAP Account Manager (LAM
 sudo apt update && sudo apt upgrade -y
 ```
 
-##📥 2️⃣ Instal·lar LDAP Account Manager (LAM)
+## 📥 2️⃣ Instal·lar LDAP Account Manager (LAM)
 
 Instal·lem LAM des dels repositoris oficials d’Ubuntu:
 
@@ -35,7 +35,7 @@ Instal·lem LAM des dels repositoris oficials d’Ubuntu:
 sudo apt install ldap-account-manager -y
 ```
 
-##🔧 3️⃣ Configurar LAM per connectar al teu LDAP
+## 🔧 3️⃣ Configurar LAM per connectar al teu LDAP
 
 ```bash
 http://<ip_servidor_ldap_lam>/lam
