@@ -5,7 +5,7 @@
 # 🐧 Ubuntu Tutorials  
 ### Canvi del nom del host i configuració del domini
 
-Petit tutorial per aprendre a canviar el **nom del teu equip** i afegir-li un **domini personalitzat** a Ubuntu.
+Tutorial per aprendre a canviar el **nom del teu equip** i afegir-li un **domini personalitzat** a Ubuntu.
 
 ---
 
