@@ -25,7 +25,7 @@ Aquest tutorial explica com instal·lar i configurar **LDAP Account Manager (LAM
 
 ```bash
 sudo apt update && sudo apt upgrade -y
-``
+```
 
 ##📥 2️⃣ Instal·lar LDAP Account Manager (LAM)
 
