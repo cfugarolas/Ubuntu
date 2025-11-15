@@ -54,10 +54,24 @@ http://<ip_servidor_ldap_lam>/lam
 
 ![Introduir usuari i contrasenya](/img/lam_login.png)
 
+```bash
+lam
+```
 ⚠️ La contrasenya per defecte de l'usuari lam és: **lam**
 
 **Anem a les opcions generals a l'apartat Server Settings**
 
 ![Server settings](/img/lam_settings.png)
 
+```bash
+Per exemple: cn=admin,dc=mydomain,dc=test
+```
+⚠️ Substituirem **dc=mydomain** i **dc=test**, per les dades del domini configurades en el ldap.
 
+**Ara anem a l'apartat **Tools Settings** i configurem el domini
+![Tools settings](/img/lam_tools.png)
+
+```bash
+Per exemple: dc=mydomain,dc=test
+```
+⚠️ Substituirem **dc=mydomain** i **dc=test**, per les dades del domini configurades en el ldap.
