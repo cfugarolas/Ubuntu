@@ -42,7 +42,7 @@ http://<ip_servidor_ldap_lam>/lam
 ```
 **Accedim a la configuració del LAM**
 
-![Configuració inicial LAM](/img/config_lam.png)
+<img src="/img/config_lam.png" alt="Configuració inicial LAM" width="500"/>
  
 ⚠️ Substitueix  **<ip_servidor_ldap_lam>** per l'adreça ip de **xarxa NAT**  o **anfitrió** des de el teu client o anfitrió.
 
@@ -50,11 +50,11 @@ http://<ip_servidor_ldap_lam>/lam
 
 **Editem el perfil del servidor**
 
-![Configuració del perfil](/img/lam_profile.png)
+<img src="/img/lam_profile.png" alt="Configuració del perfil" width="250"/>
 
 **Introduim la contrasenya per defecte**
 
-![Introduir usuari i contrasenya](/img/lam_login.png)
+<img src="/img/lam_login.png" alt="Introduir usuari i contrasenya" width="350"/>
 
 ```bash
 lam
@@ -65,7 +65,7 @@ lam
 
 **Anem a l'apartat Server Settings**
 
-![Server settings](/img/lam_settings.png)
+<img src="/img/lam_settings.png" alt="Server settings" width="800"/>
 
 ```bash
 Per exemple: cn=admin,dc=mydomain,dc=test
@@ -76,7 +76,7 @@ Per exemple: cn=admin,dc=mydomain,dc=test
 
 **Ara anem a l'apartat Tools Settings i configurem el domini**
 
-![Tools set i gutings](/img/lam_tools.png)
+<img src="/img/lam_tools.png" alt="Tools set i gutings" width="700"/>
 
 ```bash
 Per exemple: dc=mydomain,dc=test
@@ -86,9 +86,8 @@ Per exemple: dc=mydomain,dc=test
 ---
 **Dins Account Types anem a l'apartat Active account types**
 
-![Account Types](/img/lam_account_types.png)
-
-![Account](/img/lam_act_account.png)
+<img src="/img/lam_account_types.png" alt="Account Types" width="250"/>
+<img src="/img/lam_act_account.png" alt="Account" width="700"/>
 
 ⚠️ Substituirem **uo=users** i **uo=groups**, amb el nom que vulguem per guardar els usuaris i grups.
 
@@ -96,7 +95,7 @@ Per exemple: dc=mydomain,dc=test
 
 **Guardem els canvis**
 
-![Guardar les configuracions](/img/save.png)
+<img src="/img/save.png" alt="Logo Ubuntu" width="200"/>
 
 ⚠️ Anem al final de la pestanya **General settings** o **Account Types** i guardem la configuració.
 
@@ -104,7 +103,7 @@ Per exemple: dc=mydomain,dc=test
 
 **Accedim al LDAP**
 
-<img src="/img/ldap_login.png" alt="Logo Ubuntu" width="350"/>
+<img src="/img/ldap_login.png" alt="Logo Ubuntu" width="400"/>
 
 ⚠️ La contrasenya serà la configurada al fer la instal·lació del nostre LDAP server.
 
