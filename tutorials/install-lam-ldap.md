@@ -84,7 +84,15 @@ Per exemple: dc=mydomain,dc=test
 ⚠️ Substituirem **dc=mydomain** i **dc=test**, per les dades del domini configurades en el ldap.
 
 ---
+**Anem a les opcions generals a l'apartat Account Types**
+
+![Account Types](/img/lam_settings.png)
+
+---
 
 **Guardem els canvis**
 
-![Tools settings](/img/lam_tools.png)
+![Tools settings](/img/save.png)
+
+---
+
