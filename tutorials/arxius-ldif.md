@@ -81,7 +81,7 @@ objectClass: organizationalUnit
 Un cop guardat el fitxer, importa les noves OUs amb:
 
 ```bash
-ldapadd -D "cn=admin,mydomain,dc=test" -W -f OUs.ldif
+ldapadd -D "cn=admin,dc=mydomain,dc=test" -W -f OUs.ldif
 ```
 
 ### 📌 Significat de la comanda
