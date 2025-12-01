@@ -92,13 +92,13 @@ Opcions més habituals
 |no_subtree_check           |no comprova subdirectoris, és més ràpid però més insegur  |
 |root_squash         |no manté els privilegis de root quan es connencta un recurs remot  |
 
-### 🔎 4️⃣ Iniciar el servei
+### 🔄 4️⃣ Iniciar el servei
 
 ```bash
 systemctl start nfs-kernel-server
 ```
 
-### 🔎 4️⃣ Comprovacions
+### 🔎 5️⃣ Comprovacions
 
 Verificar que estem compartint via NFS
 
