@@ -72,7 +72,7 @@ Format de configuració
 
 Opcions més habituals
 
-| Opció                      | Explicació     |
+| Opcions                   | Explicació     |
 | --------------------           | ----------------- |
 |rw            | read and write           |
 |ro            |read only    |
