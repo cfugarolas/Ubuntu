@@ -34,12 +34,24 @@ La primera activitat ser`instal·lar el servidor NFS i totes les dependències.
 sudo apt install nfs-kernel-server
 ```
 
-## 📥 2️⃣ Instal·lar LDAP Account Manager (LAM)
+## ⚙️ 2️⃣Creació recurs compartit
 
-Instal·lem LAM des dels repositoris oficials d’Ubuntu:
+Primer de tot crearem una carpeta compartida dins el directori /srv,
 
 ```bash
-sudo apt install ldap-account-manager -y
+sudo mkdir compartida
+```
+
+li treurem la propietat a qualsevol usuari i grup
+
+```bash
+sudo chown nobody:nogroup /srv/compartida
+```
+
+i donem tots els permisos 1(executat)+2(escriure)+4(lectura)
+
+```bash
+sudo chmod -R 777 /srv/compartida
 ```
 
 ## 🔧 3️⃣ Configurar LAM per connectar al teu LDAP
