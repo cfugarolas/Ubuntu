@@ -111,3 +111,6 @@ Podem veure amb **rpcinfo -p <ip>** com el servei està connectat i usant el por
 ```bash
 rpcinfo -p 10.0.2.5
 ```
+
+Per verificar el funcionament crearem dos arxius a dins la carpeta compartida, un com l'usuari normal i l'altre com a root
+
