@@ -72,7 +72,7 @@ Format de configuració
 
 Formats per definir els hosts
 
-| Format host | Exemple | Explicació |
+| Format host (client1)| Exemple | Explicació |
 |-------------|---------|------------|
 | **IP única** | `192.168.1.50` | Només aquest equip pot muntar el recurs. |
 | **Diverses IPs** | `192.168.1.10 192.168.1.11` | Permet accés a diversos equips concrets. |
