@@ -25,3 +25,11 @@ Tutorial per aprendre a **instal·lar i configurar els servei NFS (Network File 
 - Accés des del client.
 
 ---
+
+## 📥 1️⃣ Instal·lació del servei
+
+La primera activitat ser`instal·lar el servidor NFS i totes les dependències.
+
+```bash
+sudo apt install nfs-kernel-server
+```
