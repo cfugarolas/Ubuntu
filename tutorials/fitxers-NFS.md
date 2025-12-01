@@ -71,4 +71,13 @@ Format de configuració
 **ruta client1(opcions)**
 
 Opcions més habituals
-rw / ro --> read and write / read only
+
+| Opció                      | Explicació     |
+| --------------------           | ----------------- |
+|rw            | read and write           |
+|ro            |read only    |
+|sync          | el servidor escriu les dades a disc abans de respondre al client.          |
+|async        | el servidor no escriu immediatament a disc; pot mantenir dades en memòria i respondre al client abans de guardar-les.   |
+|no_subtree_check           |no comprova subdirectoris, és més ràpid però més insegur  |
+|root_squash         |no manté els privilegis de root quan es connencta un recurs remot  |
+
