@@ -70,6 +70,17 @@ Afegim la següent configuració
 Format de configuració
 **ruta client1(opcions)**
 
+Formats per definir els hosts
+
+| Format host | Exemple | Explicació |
+|-------------|---------|------------|
+| **IP única** | `192.168.1.50` | Només aquest equip pot muntar el recurs. |
+| **Diverses IPs** | `192.168.1.10 192.168.1.11` | Permet accés a diversos equips concrets. |
+| **Subxarxa (CIDR)** | `192.168.1.0/24` | Permet accés a tots els equips de la subxarxa 192.168.1.x. (el mètode més recomanat). |
+| **Nom de host** | `pc-alumne.local` | El servidor resol el nom via DNS o /etc/hosts. |
+| **Tots els hosts** | `*` | Qualsevol equip pot accedir al recurs. Només en entorns controlats. |
+| **Rang d’IP (menys habitual)** | `192.168.1.100-192.168.1.150` | Permet un bloc d’adreces específic (pot no estar suportat en tots els servidors). |
+
 Opcions més habituals
 
 | Opcions                   | Explicació     |
