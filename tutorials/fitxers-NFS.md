@@ -95,7 +95,7 @@ Format de configuració
 ### 4️⃣ Iniciar el servei
 
 ```bash
-systemctl start nfs-kernel-server
+sudo systemctl start nfs-kernel-server
 ```
 
 ### 5️⃣ Comprovacions
