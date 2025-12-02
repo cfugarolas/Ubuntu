@@ -196,5 +196,34 @@ Podem verificar per terminal, que la carpeta del servidor està disponible
 ls -l /srv/remot
 ```
 
+Sortida esperada:
 
+```
+cfugarolas@zorin-desktop:~$ ls -l /srv/remot
+total 0
+-rw-r--r-- 1 root       root       0 dic  2 09:28 fitxerroot.txt
+-rw-rw-r-- 1 cfugarolas cfugarolas 0 dic  2 09:28 fitxerusuari.txt
+```
 
+### 9️⃣ Muntatge automàtic
+
+Si volem que el recurs remot sigui accessible a l’inici de sessió, cal configurar l’automuntatge.
+
+```bash
+sudo nano /etc/fstab
+```
+
+Afegim la següent línia; el 10.0.2.5 serà la IP del vostre servidor NFS.
+
+```bash
+10.0.2.5:/srv/compartida /srv/remot nfs defaults 0 0
+```
+
+Reiniciem el nostre client i verifiquem que seguim tenint accés al recurs compartit
+
+```
+cfugarolas@zorin-desktop:~$ ls -l /srv/remot
+total 0
+-rw-r--r-- 1 root       root       0 dic  2 09:28 fitxerroot.txt
+-rw-rw-r-- 1 cfugarolas cfugarolas 0 dic  2 09:28 fitxerusuari.txt
+```
