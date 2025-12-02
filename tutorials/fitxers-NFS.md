@@ -65,7 +65,7 @@ sudo nano /etc/exports
 Afegim la següent configuració
 
 ```bash
-/srv/compartida    *(rw,sync,no_subtree_check)
+/srv/compartida *(rw,sync,no_subtree_check)
 ```
 Format de configuració
 
@@ -103,7 +103,7 @@ sudo systemctl start nfs-kernel-server
 Verificar que estem compartint via NFS
 
 ```bash
-exportfs -u
+sudo exportfs -u
 ```
 
 sortida esperada:
