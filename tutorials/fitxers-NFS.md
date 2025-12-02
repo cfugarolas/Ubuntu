@@ -140,6 +140,15 @@ Verificació dels permisos
 ```bash
 ls -l
 ```
+
+Sortida esperada:
+
+```
+-rw-r--r-- 1 root   root   0 dic  2 08:28 fitxerroot.txt
+-rw-rw-r-- 1 usuari usuari 0 dic  2 08:28 fitxerusuari.txt
+usuari@ubuntu-srv:/srv/compartida$
+```
+
 ### 6️⃣ Accés des del client
 
 Primer de tot haurem de instal·lar el client nfs al nostre client Ubunto Desktop / Zorin
