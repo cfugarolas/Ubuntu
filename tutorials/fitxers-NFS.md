@@ -112,6 +112,13 @@ sortida esperada:
 srv/compartida
          <world>
 ```
+Si no mostra res, fes un reload del servei o un reboot de la màquina virtual.
+
+```bash
+sudo systemctl reload nfs-kernel-server
+o
+sudo reboot
+```
 
 Podem veure amb **rpcinfo -p <ip>** com el servei està connectat i usant el port 20249
 
