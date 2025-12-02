@@ -187,6 +187,14 @@ ara per poder accedir al recurs, utilitzarem la comanda mount
 sudo mount -t nfs 10.0.2.5:/srv/compartida /srv/remot
 ```
 
+### 8️⃣Comprovació de l'accés 
+
+Podem verificar per terminal, que la carpeta del servidor està disponible
+
+
+```bash
+ls -l /srv/remot
+```
 
 
 
