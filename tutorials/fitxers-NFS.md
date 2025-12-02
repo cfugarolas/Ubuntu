@@ -154,17 +154,17 @@ usuari@ubuntu-srv:/srv/compartida$
 Primer de tot haurem de instal·lar el client nfs al nostre client Ubunto Desktop / Zorin
 
 ```bash
-apt install nfs-common
+sudo apt install nfs-common
 ```
 
 Ara des del client verifiquem que tenim accés al recurs del servidor
 
 ```bash
 Format:
-showmount -e <ip_nostre_servidor>
+sudo showmount -e <ip_nostre_servidor>
 
 Exemple:
-showmount -e 10.0.2.5
+sudo showmount -e 10.0.2.5
 ```
 
 Sortida:
