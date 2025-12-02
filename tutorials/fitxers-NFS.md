@@ -65,7 +65,7 @@ sudo nano /etc/exports
 Afegim la següent configuració
 
 ```bash
-/srv/compartida *(rw,sync,no_subtree_check)
+/srv/compartida    *(rw,sync,no_subtree_check)
 ```
 Format de configuració
 
@@ -104,6 +104,13 @@ Verificar que estem compartint via NFS
 
 ```bash
 exportfs -u
+```
+
+sortida esperada:
+
+```
+srv/compartida
+         <world>
 ```
 
 Podem veure amb **rpcinfo -p <ip>** com el servei està connectat i usant el port 20249
