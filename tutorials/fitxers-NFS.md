@@ -26,20 +26,20 @@ Tutorial per aprendre a **instal·lar i configurar els servei NFS (Network File 
 
 ---
 
-### 📥 1️⃣ Instal·lació del servei
+### 1️⃣ Instal·lació del servei
 
-La primera activitat ser`instal·lar el servidor NFS i totes les dependències.
+La primera activitat serà instal·lar el servidor NFS i totes les dependències.
 
 ```bash
 sudo apt install nfs-kernel-server
 ```
 
-### ⚙️ 2️⃣Creació recurs compartit
+### 2️⃣Creació recurs compartit
 
 Primer de tot crearem una carpeta compartida dins el directori /srv,
 
 ```bash
-sudo mkdir compartida
+sudo mkdir /srv/compartida
 ```
 
 li treurem la propietat a qualsevol usuari i grup
@@ -54,7 +54,7 @@ i donem tots els permisos 1(executat)+2(escriure)+4(lectura)
 sudo chmod -R 777 /srv/compartida
 ```
 
-### 🔧 3️⃣ Configuració NFS
+### 3️⃣ Configuració NFS
 
 Editarem l'arxiu de configuració /etc/exports amb el nano
 
@@ -68,9 +68,10 @@ Afegim la següent configuració
 /srv/compartida *(rw,sync,no_subtree_check)
 ```
 Format de configuració
-**ruta client1(opcions)**
 
-Formats per definir els hosts
+        ruta client1(opcions)
+
+**Formats per definir els hosts**
 
 | Format host (client1)| Exemple | Explicació |
 |-------------|---------|------------|
@@ -81,24 +82,23 @@ Formats per definir els hosts
 | **Tots els hosts** | `*` | Qualsevol equip pot accedir al recurs. Només en entorns controlats. |
 | **Rang d’IP (menys habitual)** | `192.168.1.100-192.168.1.150` | Permet un bloc d’adreces específic (pot no estar suportat en tots els servidors). |
 
-Opcions més habituals
 
 | Opcions                   | Explicació     |
 | --------------------           | ----------------- |
-|rw            | read and write           |
-|ro            |read only    |
-|sync          | el servidor escriu les dades a disc abans de respondre al client.          |
-|async        | el servidor no escriu immediatament a disc; pot mantenir dades en memòria i respondre al client abans de guardar-les.   |
-|no_subtree_check           |no comprova subdirectoris, és més ràpid però més insegur  |
-|root_squash         |no manté els privilegis de root quan es connencta un recurs remot  |
+|rw            | Read and write           |
+|ro            |Read only    |
+|sync          | El servidor escriu les dades a disc abans de respondre al client.          |
+|async        | El servidor no escriu immediatament a disc; pot mantenir dades en memòria i respondre al client abans de guardar-les.   |
+|no_subtree_check           |No comprova subdirectoris, és més ràpid però més insegur  |
+|root_squash         |No manté els privilegis de root quan es connencta un recurs remot  |
 
-### 🔄 4️⃣ Iniciar el servei
+### 4️⃣ Iniciar el servei
 
 ```bash
 systemctl start nfs-kernel-server
 ```
 
-### 🔎 5️⃣ Comprovacions
+### 5️⃣ Comprovacions
 
 Verificar que estem compartint via NFS
 
@@ -113,4 +113,57 @@ rpcinfo -p 10.0.2.5
 ```
 
 Per verificar el funcionament crearem dos arxius a dins la carpeta compartida, un com l'usuari normal i l'altre com a root
+
+```bash
+
+cd /srv/compartida
+sudo touch fitxerroot.txt
+touch fitxerusuari.txt
+```
+
+Verificació dels permisos
+
+```bash
+ls -l
+```
+### 6️⃣ Accés des del client
+
+Primer de tot haurem de instal·lar el client nfs al nostre client Ubunto Desktop / Zorin
+
+```bash
+apt install nfs-common
+```
+
+Ara des del client verifiquem que tenim accés al recurs del servidor
+
+```bash
+Format:
+showmount -e <ip_nostre_servidor>
+
+Exemple:
+showmount -e 10.0.2.5
+```
+
+Sortida:
+```
+Export list for 10.0.2.5:
+/srv/compartida *
+```
+
+### 7️⃣Muntatge carpeta compartida al client
+
+En el sistema linux qualsevol recurs extern, s'ha de mapejar sobre una carpeta, per tant, el primer es crear aquesta carpeta,
+
+```bash
+sudo mkdir /srv/remot
+```
+
+ara per poder accedir al recurs, utilitzarem la comanda mount
+
+```bash
+sudo mount -t nfs 10.0.2.5:/srv/compartida /srv/remot
+```
+
+
+
 
